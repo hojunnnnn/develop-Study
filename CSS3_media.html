@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+
+        @media screen and (max-width:800px) {
+            #wrap {width:100%;}
+            #content_wrap #content p {font-size:3em; font-weight:bold;}
+        }
+
+        @media screen and (min-width:801px) and (max-width:1000px) {
+            #wrap {width:100%;}
+            #content_wrap #content p {font-size:1.5em; font-weight:bold;}
+        }
+
+        @media screen and (min-width:1001px) {
+            #wrap {width:80%;}
+            #content_wrap #content p {font-size:1em; font-weight:bold;}
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+        #wrap {margin:0 auto;}
+
+        #header {border:1px solid #cccccc; height:100px;}
+        #header > h1 {text-align:center;}
+        
+        #nav {border:1px solid #cccccc;}
+        #nav ul {overflow:hidden;}
+        #nav ul li {float:left; width:20%; height:50px; line-height:50px; 
+                    text-align:center; box-sizing:border-box; border:1px solid #cccccc;}
+
+        #content_wrap {border:1px solid #cccccc;  }
+        #content_wrap #content {padding:10px;}
+        #content_wrap #content > h2 {border-bottom:1px solid #cccccc; margin-bottom:10px;}
+        #footer {height:100px; line-height:100px; text-align:center; border:1px solid #cccccc;}
+
+    </style>
+</head>
+<body>
+    <div id="wrap">
+
+        <div id="header">
+            <h1>Header</h1>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li>menu1</li>
+                <li>menu2</li>
+                <li>menu3</li>
+                <li>menu4</li>
+                <li>menu5</li>
+            </ul>
+        </div>
+
+        <div id="content_wrap">
+            <div id="content">
+                <h2>우아한형제들 회사 소개 및 대표 브랜드</h2>
+                <p>우아한형제들은 국내 1위 음식배달 서비스 앱 '배달의 민족'의 운영사로, 2011년 설립됐다. 대표 브랜드인 '배달의 민족'을 통해 급성장했으며, 음식 배달 산업의 패러다임을 바꾸는 데 성공했다. 또한 우아한형제들만의 감각적인 디자인으로 2030세대의 마음을 사로잡았다. 2018년 6월 기준 누적 다운로드 3천만 건을 돌파했으며, 월별 주문 건수가 1,900만건에 달한다. 현재 배달의 민족외에도 외식 배달 서비스 '배민브라더스', 모바일 반찬 배달 서비스 '배민찬'을 함께 운영하는 등 서비스 분야를 확장해나가고 있다. 여기에 AI, 자율주행 로봇 같은 신기술에 대한 투자도 아끼지 않고 있어 향후 푸트테크기업으로의 더 큰 성장이 기대된다.</p>
+            </div>
+        </div>
+
+        <div id="footer">
+            <h1>Footer</h1>
+        </div>
+    </div>
+</body>
+</html>
